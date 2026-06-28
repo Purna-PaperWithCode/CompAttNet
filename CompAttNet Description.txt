@@ -1,0 +1,95 @@
+# CompAttNet
+## Composition Attention Network for Materials Property Prediction
+
+### Overview
+
+CompAttNet is a lightweight composition-attention deep learning framework developed for predicting thermodynamic and electronic properties of inorganic materials directly from their chemical compositions. The framework employs a multi-head attention mechanism to learn element-level interactions from stoichiometric information without requiring explicit crystallographic descriptors.
+
+The proposed framework is designed for efficient composition-driven materials screening and supports scalable prediction of multiple scalar material properties using a unified neural architecture.
+
+---
+
+## Scientific Motivation
+
+Accurate prediction of material properties is fundamental to accelerating computational materials discovery. Although graph neural networks and other structure-aware models have achieved excellent predictive performance, they rely on crystal structural information that is often unavailable during the early stages of material design.
+
+CompAttNet addresses this limitation by learning composition–property relationships directly from chemical formulas, enabling efficient prediction using only stoichiometric information.
+
+---
+
+## Key Features
+
+• Lightweight multi-head attention architecture
+
+• Structure-independent composition learning
+
+• Direct prediction from chemical formulas
+
+• Modular PyTorch implementation
+
+• Transfer learning and fine-tuning support
+
+• Reproducible experimental workflow
+
+---
+
+## Supported Properties
+
+The framework supports prediction of
+
+- Formation Energy per Atom
+- Electronic Band Gap
+- Experimental Band Gap Correction
+- Other scalar regression tasks
+
+---
+
+## Workflow
+
+
+
+Dataset Preparation
+
+↓
+
+Data Preprocessing
+
+↓
+
+Model Pretraining
+
+↓
+
+Task-specific Fine-tuning
+
+↓
+
+Model Evaluation
+
+↓
+
+Property Prediction
+
+---
+
+## Repository Contents
+
+The repository includes
+
+- Source code
+- Dataset preparation utilities
+- Training scripts
+- Fine-tuning scripts
+- Evaluation scripts
+- Hyperparameter settings
+- Processed datasets
+- Model checkpoints
+- Experimental results
+- Documentation
+
+---
+
+Title
+
+**Attention-Based Composition Learning for Thermodynamic and Electronic Property Prediction in Inorganic Materials**
+
