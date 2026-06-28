@@ -19,28 +19,7 @@ The framework supports multiple regression tasks including:
 1. PROJECT DIRECTORY STRUCTURE
 ---------------------------------------------------------------------
 
-tlcompformer/
-│
-├── checkpoints/               Saved pretrained and fine-tuned models
-├── configs/                   Configuration files
-├── data/                      Processed datasets
-├── deployment/                Deployment utilities
-├── inference/                 Prediction scripts
-├── models/                    Model architectures
-├── results/                   Experimental results
-├── training/                  Training utilities
-├── utils/                     Helper functions
-│
-├── Final_Dataset_preparation.ipynb
-├── ML_Models_For_MP_Prediction.ipynb
-├── run_pretrain.py
-├── run_pretrain_aflow.py
-├── run_finetune.py
-├── run_finetune_ef.py
-├── evaluate.py
-├── test_eval_ef.py
-├── requirements.txt
-└── README.md
+<img width="378" height="342" alt="image" src="https://github.com/user-attachments/assets/a0c6c6eb-0716-45af-b3b8-65ebd921c4ea" />
 
 ---------------------------------------------------------------------
 2. INSTALLATION
